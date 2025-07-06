@@ -2,9 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
+
 :root {
+  --bg-color: #1F242D;
+  --second-bgColor: #323946;
+  --text-color: #FFF;
+  --main-color: #0EF;
+  --main-font: Signika;
   --background: #ffffff;
   --foreground: #171717;
+}
+
+*,
+*::before,
+*::after {
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  -webkit-user-drag: none;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -14,10 +38,41 @@
   }
 }
 
+span {
+  color: var(--main-color);
+}
+
+section {
+  min-height: 100vh;
+  padding: 10rem 9% 2rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 1rem 2.8rem;
+  background: var(--main-color);
+  box-shadow: 0 0 1rem var(--main-color);
+  border-radius: 4rem;
+  font-size: 1.6rem;
+  color: var(--second-bgColor);
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+  transition: 0.4s ease;
+}
+
+.btn:hover {
+  box-shadow: none;
+}
+
+.heading {
+  text-align: center;
+  font-size: 4.5rem;
+}
+
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Vazir;
 }
 
 @layer utilities {

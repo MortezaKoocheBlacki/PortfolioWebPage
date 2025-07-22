@@ -4,12 +4,11 @@
       align-items: center;
       gap: 2rem;
       background: var(--second-bgColor);
+      direction: rtl;
 }
 
 .about_image {
       position: relative;
-      width: 35vw;
-      height: 35vw;
       border-radius: 1.5rem;
       overflow: hidden;
       animation: floatImage 4s ease-in-out infinite;
@@ -19,12 +18,8 @@
       object-fit: cover;
 }
 
-.about_content{
-      width: 50%; 
-}
 
 .about_content h2 {
-      text-align: left;
       font-size: 5rem;
 }
 
@@ -35,4 +30,22 @@
 .about_content p {
       font-size: 1.6rem;
       margin: 2rem 0 3rem; 
+}
+
+@media (max-width: 768px) {
+      .about {
+            flex-direction: column-reverse;
+      }
+
+      .about .image {
+            width: 70vw;
+            height: 70vw;
+            margin-top: 4rem;   
+      }
+}
+@media (max-width: 365px) {
+      .about_image .image {
+            width: 90vw;
+            height: 90vw;
+      }
 }

@@ -1,0 +1,36 @@
+.portfolio {
+      background: var(--second-bgColor);
+}
+
+.portfolio h2 {
+      margin-bottom: 4rem;
+}
+
+.portfolio .portfolio_container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      align-items: center;
+      gap: 2.5rem;
+}
+
+@media (max-width: 991px) {
+      .portfolio {
+            padding-bottom: 7rem;   
+      }
+}
+
+@media (max-width: 768px) {
+      .portfolio h2 {
+            margin-bottom: 3rem;
+      }
+      
+      .portfolio_container {
+            grid-template-columns: repeat(2, 1fr) !important;
+      }
+}
+
+@media (max-width: 617px) {
+      .portfolio_container {
+            grid-template-columns: 1fr !important;
+      } 
+}

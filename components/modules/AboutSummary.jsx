@@ -7,14 +7,17 @@ function AboutSummary() {
       return (
             <section class={styles.about} id="about">
                   <div className={styles.about_image}>
-                        <Image src="/About.jpg" alt="About Image" className={styles.image} fill />
+                        <Image src="/About.jpg" alt="About Image" className={styles.image} width={1500} height={900} />
                   </div>
         
                   <div className={styles.about_content}>
-                        <h2 className="heading"> About <span> Me </span></h2>
-                        <h3> Front-End Developer ! </h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur quae consectetur est dolore doloribus labore vero mollitia illum enim, at alias sunt voluptas perspiciatis. Numquam necessitatibus molestias expedita similique tempora nobis recusandae rerum quia hic cupiditate illo nemo architecto omnis accusamus rem, culpa quidem ratione consectetur nihil!</p>
-                        <Link href="#" className="btn"> Read More </Link>
+                        <h2 className="heading"> درباره <span> من </span></h2>
+                        <h3> توسعه دهنده فرانت اند </h3>
+                        <p>
+                              من مرتضی هستم، توسعه‌دهنده‌ی فرانت‌اند با تمرکز روی React و Next.js. علاقه‌مند به طراحی رابط‌های کاربری سریع، ساخت‌یافته و با تجربه‌ی کاربری روان.
+                               همیشه تلاش کردم یک یادگیرنده‌ی پیوسته باشم؛ کسی که در کنار مهارت فنی، به ارتباطات سالم، مسئولیت‌پذیری و رشد فردی هم اهمیت می‌ده. امیدوارم این رزومه نقطه‌ی شروع گفت‌وگویی سازنده بین ما باشه.
+                        </p>
+                        <Link href="#" className="btn"> مطالعه بیشتر </Link>
                   </div>
             </section>
       );

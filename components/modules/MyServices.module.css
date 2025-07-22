@@ -10,39 +10,14 @@
       gap: 2rem;
 }
 
-.services_container .services_box {
-      flex: 1 1 30rem;
-      background: var(--second-bgColor);
-      padding: 3rem 2rem 4rem;
-      border-radius: 2rem;
-      text-align: center;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 1rem;
-      border: 0.2rem solid var(--bg-color);
-      transition: scale 0.3s ease;
-      -webkit-transition: scale 0.3s ease;
-      -moz-transition: scale 0.3s ease;
-      -ms-transition: scale 0.3s ease;
-      -o-transition: scale 0.3s ease;
+@media (max-width: 991px) {
+      .services {
+            padding-bottom: 7rem;   
+      }
 }
 
-.services_box:hover {
-      border-color: var(--main-color);
-      scale: 1.04;
-}
-
-.services_box .icon {
-      font-size: 7rem;
-      color: var(--main-color);
-}
-
-.services_box h3 {
-      font-size: 2.6rem;
-}
-
-.services_box p {
-      font-size: 1.6rem;
-      margin: 1rem 0 3rem; 
+@media (max-width: 768px) {
+      .services h2 {
+            margin-bottom: 3rem;   
+      }
 }

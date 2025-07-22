@@ -10,7 +10,7 @@ function WelcomeSection() {
 
       useEffect(() => {
             const typedInstance = new Typed(typedRef.current, {
-                  strings: ["YouTuber", "Blogger", "FrontEnd Developer"],
+                  strings: ["توسعه دهنده فرانت اند", "برنامه نویس"],
                   typeSpeed: 100,
                   backSpeed: 100,
                   backDelay: 1000,
@@ -26,15 +26,16 @@ function WelcomeSection() {
       return (
             <section className={styles.home} id="home">
                   <div className={styles.home_content}>
-                        <h3>Hello, Welcome here</h3>
-                        <h1>I am Koochemeshki</h1>
+                        <h3>سلام خوش آمدید</h3>
+                        <h1>مرتضی کوچه مشکی </h1>
                         <h3>
-                              And I am a <span ref={typedRef}></span>
+                              حوزه کاری:  <span ref={typedRef}></span>
                         </h3>
                         <p>
-                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quo quos dicta
-                              enim id voluptatum labore sequi odio optio! Recusandae, praesentium! Libero
-                              voluptatibus minima rerum, earum placeat deleniti iusto quidem?
+                              من مرتضی هستم، توسعه‌دهنده‌ی فرانت‌اند با تمرکز روی React و Next.js. علاقه‌مند به طراحی رابط‌های کاربری سریع، ساخت‌یافته و با تجربه‌ی کاربری روان.
+                              
+                              همیشه تلاش کردم یک یادگیرنده‌ی پیوسته باشم؛ کسی که در کنار مهارت فنی، به ارتباطات سالم، مسئولیت‌پذیری و رشد فردی هم اهمیت می‌ده. امیدوارم این رزومه نقطه‌ی شروع گفت‌وگویی سازنده بین ما باشه.
+
                         </p>
 
                         <div className={styles.social_media}>
@@ -45,11 +46,11 @@ function WelcomeSection() {
                               <Link href="#"><FaDribbble /></Link>
                         </div>
 
-                        <Link href="#" className={styles.btn}>Download CV</Link>
+                        <Link href="#" className={styles.btn}>دانلود رزومه</Link>
                   </div>
 
                   <div className={styles.home_image}>
-                        <Image src="/Home.jpg" alt="Home Image" className={styles.image} fill />
+                        <Image src="/Home.jpg" alt="Home Image" className={styles.image} width={1200} height={900} />
                   </div>
             </section>
       );

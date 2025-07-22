@@ -82,3 +82,9 @@
       filter: drop-shadow(0 0 5px #FFF);
       -webkit-filter: drop-shadow(0 0 5px #FFF);
 }
+
+@media (max-width: 991px) {
+      .header {
+            padding: 2rem 3%; 
+      }
+}

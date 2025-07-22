@@ -1,8 +1,14 @@
 import React from 'react'
+import styles from "./index.module.css"
+import ResumeLeftSide from '@/components/modules/ResumeModules/ResumeLeftSide';
+import ResumeRightSide from '@/components/modules/ResumeModules/ResumeRightSide';
 
 function MyResume() {
       return (
-            <div>MyResume</div>
+            <div className={styles.container}>
+                  <ResumeLeftSide />
+                  <ResumeRightSide />
+            </div>
       );
 }
 

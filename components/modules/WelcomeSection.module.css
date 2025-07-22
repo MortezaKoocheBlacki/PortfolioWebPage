@@ -3,16 +3,15 @@
       justify-content: space-between;
       align-items: center;
       gap: 3rem;
+      direction: rtl;
 }
 
-.home_content{
+/* .home_content{
       width: 50vw;
-}
+} */
 
 .home_image {
       position: relative;
-      width: 35vw;
-      height: 35vw;
       border-radius: 1.5rem;
       overflow: hidden;
       animation: floatImage 4s ease-in-out infinite;
@@ -91,4 +90,31 @@
 
 .btn:hover {
       box-shadow: none;   
+}
+
+@media (max-width: 768px) {
+      .home {
+            flex-direction: column;
+      }
+
+      .home_content h3 {
+            font-size: 2.2rem;
+      }
+
+      .home_content h1 {
+            font-size: 4rem;
+      }
+
+      .home_image .image {
+            width: 70vw;
+            height: 70vw;
+            margin-top: 4rem;   
+      }
+}
+
+@media (max-width: 365px) {
+      .home_image .image{
+            width: 90vw;
+            height: 90vw;
+      }
 }

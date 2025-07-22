@@ -38,3 +38,20 @@
       font-size: 2rem;
       color: #323946;
 }
+
+@media (max-width: 991px) {
+      .footer {
+            padding: 2rem 3%;
+      } 
+}
+
+@media (max-width: 365px) {
+      .footer {
+            flex-direction: column-reverse;
+      }
+
+      .footer p {
+            text-align: center;
+            margin-top: 2rem;
+      } 
+}

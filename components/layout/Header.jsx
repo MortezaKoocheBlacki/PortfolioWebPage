@@ -26,13 +26,13 @@ function Header() {
                                     <Link href="/ProductsPage">محصولات</Link>
                               </li>
                               <li className={styles.navItem}>
+                                    <Link href="/Articles">مقالات</Link>
+                              </li>
+                              <li className={styles.navItem}>
                                     <Link href="/AboutMe">درباره من</Link>
                               </li>
                               <li className={styles.navItem}>
                                     <Link href="/MyResume">رزومه من</Link>
-                              </li>
-                              <li className={styles.navItem}>
-                                    <Link href="/about-me"></Link>
                               </li>
                         </ul>
                   </nav>

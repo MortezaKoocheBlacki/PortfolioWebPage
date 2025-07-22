@@ -1,0 +1,88 @@
+.portfolio_box {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      box-shadow: 0 0 1rem var(--bg-color);
+      overflow: hidden;
+      display: flex;
+      border-radius: 2rem;
+      -webkit-border-radius: 2rem;
+      -moz-border-radius: 2rem;
+      -ms-border-radius: 2rem;
+      -o-border-radius: 2rem;
+}
+
+.portfolio_box .image {
+      object-fit: cover;
+      border-radius: 1.5rem;
+      -webkit-border-radius: 1.5rem;
+      -moz-border-radius: 1.5rem;
+      -ms-border-radius: 1.5rem;
+      -o-border-radius: 1.5rem;
+      transition: all 0.3s ease;
+      -webkit-transition: all 0.3s ease;
+      -moz-transition: all 0.3s ease;
+      -ms-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+}
+
+.portfolio_box:hover .image {
+      transform: scale(1.1);
+      -webkit-transform: scale(1.1);
+      -moz-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      -o-transform: scale(1.1);
+}
+
+.portfolio_box .portfolio_layer {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(rgba(0, 0, 0, 0.1), var(--bg-color));
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 0 4rem;
+      transform: translateY(100%);
+      transition: 0.3s ease;
+}
+
+.portfolio_box:hover .portfolio_layer {
+      transform: translateY(0);
+}
+
+.portfolio_layer h4 {
+      font-size: 3rem;
+}
+
+.portfolio_layer p {
+      font-size: 1.6rem;
+      margin: 0.3rem 0 1rem;
+}
+
+.portfolio_layer .tech_icons {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 1rem;
+      font-size: 3rem;
+      color: var(--main-color);
+}
+
+.portfolio_layer a {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      width: 5rem;
+      height: 5rem;
+      background: var(--text-color);
+      border-radius: 50%;
+}
+
+.portfolio_layer a .icon {
+      font-size: 2rem;
+      color: var(--second-bgColor);
+}

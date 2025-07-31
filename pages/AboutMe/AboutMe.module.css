@@ -1,0 +1,35 @@
+.container{
+      direction: rtl;
+      padding: 10px 7%;
+}
+
+.section{
+      margin: 40px auto;
+      padding: 10px 0;
+}
+
+.section h3{
+      font-size: clamp(1.6rem, 2.4rem, 3rem);
+      text-align: center;
+      margin-bottom: 2rem;
+}
+
+.section .description{
+      font-size: clamp(0.8rem, 1.5rem, 2rem);
+      line-height: 2.6rem
+}
+
+.section .list_container{
+      padding-right: 4%;
+}
+
+.section span{
+      font-size: 1.6rem;
+      color: #FFF;
+      display: block;
+      margin: 1.4rem 0;
+}
+
+.section ul li{
+      list-style:  square;
+}

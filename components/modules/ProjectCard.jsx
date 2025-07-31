@@ -5,11 +5,11 @@ import styles from "./ProjectCard.module.css";
 import { FaArrowUpRightFromSquare } from 'react-icons/fa6';
 
 function ProjectCard({ list_item }) {
-      const { src, alt, link, title, technologies, description } = list_item;
+      const { cover__image, alt, link, title, technologies, description } = list_item;
       
       return (
             <div className={styles.portfolio_box}>
-                  <Image className={styles.image} src={src} alt={alt} fill />
+                  <Image className={styles.image} src={cover__image} alt={alt} fill />
 
                   <div className={styles.portfolio_layer}>
                         <h4> {title} </h4>

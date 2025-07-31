@@ -13,7 +13,7 @@ import { SiNextdotjs } from "react-icons/si";
 const latest_project = [
       {
             id: 1,
-            src: "/Image01.jpg",
+            cover__image: "/Image01.jpg",
             alt: "Music-Project",
             link: "/",
             title: "Music Player",
@@ -26,7 +26,7 @@ const latest_project = [
       },
       {
             id: 2,
-            src: "/Image02.jpg",
+            cover__image: "/Image02.jpg",
             alt: "Clock-Project",
             link: "/",
             title: "Clock Project",
@@ -39,7 +39,7 @@ const latest_project = [
       },
       {
             id: 3,
-            src: "/Image03.jpg",
+            cover__image: "/Image03.jpg",
             alt: "Store-Project",
             link: "/",
             title: "Store Project",
@@ -52,7 +52,7 @@ const latest_project = [
       },
       {
             id: 4,
-            src: "/Image04.jpg",
+            cover__image: "/Image04.jpg",
             alt: "ToDo-Project",
             link: "/",
             title: "ToDo List",
@@ -65,7 +65,7 @@ const latest_project = [
       },
       {
             id: 5,
-            src: "/Image05.jpg",
+            cover__image: "/Image05.jpg",
             alt: "Poll-Project",
             link: "/",
             title: "Poll Project",
@@ -78,7 +78,7 @@ const latest_project = [
       },
       {
             id: 6,
-            src: "/Image06.jpg",
+            cover__image: "/Image06.jpg",
             alt: "PasswordGeneration-Project",
             link: "/",
             title: "Password Generator",
@@ -91,7 +91,7 @@ const latest_project = [
       },
       {
             id: 7,
-            src: "/Image07.jpg",
+            cover__image: "/Image07.jpg",
             alt: "LoginForm-Project",
             link: "/",
             title: "Login Form",

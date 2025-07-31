@@ -1,0 +1,47 @@
+/* components/CategoryOptions.module.css */
+.options_container {
+      margin: 10em 0 2em 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1em;
+      text-align: center;
+}
+
+.options_container .option {
+      background: #D5D5D5;
+      color: #000;
+      cursor: pointer;
+      padding: 0.8em 1.5em;
+      text-transform: capitalize;
+      border-radius: 0.5em;
+      -webkit-border-radius: 0.5em;
+      -moz-border-radius: 0.5em;
+      -ms-border-radius: 0.5em;
+      -o-border-radius: 0.5em;
+      transition: all 0.3s ease;
+      -webkit-transition: all 0.3s ease;
+      -moz-transition: all 0.3s ease;
+      -ms-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+}
+
+.options_container .option:active {
+      background: #4E23DB;
+      color: #FFF;
+      transform: scale(0.9);
+      -webkit-transform: scale(0.9);
+      -moz-transform: scale(0.9);
+      -ms-transform: scale(0.9);
+      -o-transform: scale(0.9);
+}
+
+.options_container .option.active {
+      background: #CB202D;
+      color: #FFF;
+      box-shadow: 0 0 1px 2px #FFF, 0 0 0px 6px #CB202D;
+}
+
+.options_container .option.active:active {
+      box-shadow: none;
+}

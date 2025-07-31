@@ -5,14 +5,10 @@ import Link from 'next/link';
 
 function ProductCard({ product }) {
       const {
-            id,
             cover__image,
-            image_sources: [{ src_one: image_src1, src_two: image_src2, src_three: image_src3 }],
-            alt,
             link,
-            category,
             title,
-            description,
+            price,
             technologies
       } = product
 
@@ -24,7 +20,7 @@ function ProductCard({ product }) {
                               {title}
                               <br></br>
                               <span>
-                                    {description}
+                                    Project Price: {price}
                               </span>
                         </h3>
                         <div className={styles.tech_icons}>
@@ -34,7 +30,7 @@ function ProductCard({ product }) {
                                     </div>
                               ))}
                         </div>
-                        <Link href={link} className={styles.seeBtn}>see the project</Link>
+                        <Link href={link} className={styles.seeBtn}>جزئیات پروژه</Link>
                   </div>
             </div>
       );

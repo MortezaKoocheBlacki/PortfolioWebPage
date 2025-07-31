@@ -11,7 +11,7 @@ function ProjectDetail() {
       
       const details = projects_list[Number(projectId) - 1];
 
-      if (!details) return <p>Car not found</p>;
+      if (!details) return <p>Projects not found</p>;
 
       return <ProjectDetails project={details} />
 }

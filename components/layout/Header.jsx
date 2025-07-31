@@ -1,18 +1,27 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import styles from './Header.module.css';
 import Link from 'next/link';
 import Image from 'next/image';
 
+import { ImLeaf } from "react-icons/im";
+
 function Header() {
+      const [isMobile, setIsMobile] = useState(false);
+
+      useEffect(() => {
+            const handleResize = () => {
+                  setIsMobile(window.innerWidth <= 600);
+            };
+            handleResize(); // Set initial state
+            window.addEventListener('resize', handleResize);
+            return () => window.removeEventListener('resize', handleResize);
+      }, []);
+
+
       return (
-            <header className={styles.header}>
+            <header className={`${styles.header} ${isMobile ? styles.hiddenOnMobile : ''}`}>
                   <Link href="/">
-                        <Image 
-                              src="/favicon.ico"
-                              width={100}
-                              height={100}
-                              alt="Logo"
-                        />
+                        <ImLeaf className={styles.main_logo} />
                   </Link>
                   <nav className={styles.navigation}>
                         <ul className={styles.navList}>

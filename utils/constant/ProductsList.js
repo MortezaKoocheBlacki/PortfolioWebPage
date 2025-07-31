@@ -74,7 +74,6 @@ const products_list = [
             alt: "LoginForm-Project",
             link: "/ProductsPage/4",
             project_link: "https://github.com/MortezaKoocheBlacki/PasswordGeneration",
-            category: ["clean code"],
             title: "Password Generation",
             description: "تولید رمز عبور قدرتمند و ایمن، دغدغه بسیاری از کاربران است. این پروژه با الگوریتم‌های تصادفی، رمزهای امن و منحصر‌به‌فرد ایجاد می‌کند و امنیت حساب‌های کاربری شما را تضمین می‌کند.",
             price: "4$",

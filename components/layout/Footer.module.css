@@ -3,7 +3,7 @@
       justify-content: space-between;
       align-items: center;
       flex-wrap: wrap;
-      padding: 2rem 9%;
+      padding: 2rem 7%;
       background: #323946;
 }
 
@@ -11,7 +11,7 @@
       font-size: 1.6rem;
 }
 
-.footer_iconTop a {
+.footer_iconTop {
       color: #FFF;
       display: inline-flex;
       justify-content: center;
@@ -28,26 +28,28 @@
       -moz-border-radius: 0.8rem;
       -ms-border-radius: 0.8rem;
       -o-border-radius: 0.8rem;
+      cursor: pointer;
 }
 
-.footer_iconTop:hover a {
+.footer_iconTop:hover {
       box-shadow: 0 0 1rem #0EF;
 }
 
-.footer_iconTop a .icon {
+.footer_iconTop .icon {
       font-size: 2rem;
       color: #323946;
 }
 
 @media (max-width: 991px) {
       .footer {
-            padding: 2rem 3%;
+            padding: 2rem 3% 12rem;
       } 
 }
 
 @media (max-width: 365px) {
       .footer {
             flex-direction: column-reverse;
+            padding: 2rem 2% 10rem;
       }
 
       .footer p {

@@ -14,8 +14,8 @@ const latest_project = [
       {
             id: 1,
             cover__image: "/Image01.jpg",
-            alt: "Music-Project",
-            link: "/",
+            alt: "Music Project",
+            link: "/ProductsPage/13",
             title: "Music Player",
             description: "آهنگ های مختلف رو راحت گوش بده",
             technologies: [
@@ -27,8 +27,8 @@ const latest_project = [
       {
             id: 2,
             cover__image: "/Image02.jpg",
-            alt: "Clock-Project",
-            link: "/",
+            alt: "Clock Project",
+            link: "/ProductsPage/7",
             title: "Clock Project",
             description: "زمان رو داشته باش",
             technologies: [
@@ -40,9 +40,9 @@ const latest_project = [
       {
             id: 3,
             cover__image: "/Image03.jpg",
-            alt: "Store-Project",
-            link: "/",
-            title: "Store Project",
+            alt: "Shopping Cart",
+            link: "/ProductsPage/1",
+            title: "Shopping Cart",
             description: "پروژه فروشگاهی جالب",
             technologies: [
                   { id: "html", icon: <FaHtml5 /> },
@@ -53,8 +53,8 @@ const latest_project = [
       {
             id: 4,
             cover__image: "/Image04.jpg",
-            alt: "ToDo-Project",
-            link: "/",
+            alt: "ToDo List",
+            link: "/ProductsPage/5",
             title: "ToDo List",
             description: "کارهای خودت رو مدیریت بکن",
             technologies: [
@@ -66,9 +66,9 @@ const latest_project = [
       {
             id: 5,
             cover__image: "/Image05.jpg",
-            alt: "Poll-Project",
-            link: "/",
-            title: "Poll Project",
+            alt: "Responsive Dashboard",
+            link: "/ProductsPage/10",
+            title: "Responsive Dashboard",
             description: "نظر سنجی داشته باش",
             technologies: [
                   { id: "html", icon: <FaHtml5 /> },
@@ -79,8 +79,8 @@ const latest_project = [
       {
             id: 6,
             cover__image: "/Image06.jpg",
-            alt: "PasswordGeneration-Project",
-            link: "/",
+            alt: "Password Generation Project",
+            link: "/ProductsPage/4",
             title: "Password Generator",
             description: "رمز عبور امن درست کن",
             technologies: [
@@ -92,9 +92,9 @@ const latest_project = [
       {
             id: 7,
             cover__image: "/Image07.jpg",
-            alt: "LoginForm-Project",
-            link: "/",
-            title: "Login Form",
+            alt: "Portfolio",
+            link: "/ProductsPage/11",
+            title: "Portfolio",
             description: "صفحه ورود باحال",
             technologies: [
                   { id: "html", icon: <FaHtml5 /> },

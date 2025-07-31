@@ -17,14 +17,14 @@ function ContactInfo() {
                                     <span className={styles.icon}>
                                           <FaPhoneAlt />
                                     </span>
-                                    <span className={styles.text}>+1 0943453</span>
+                                    <span className={styles.text}>+98937 xxx xxx 8</span>
                               </li>
 
                               <li>
                                     <span className={styles.icon}>
                                           <MdEmail />
                                     </span>
-                                    <span className={styles.text}>mortezakoochemeshki81@gmail.com</span>
+                                    <span className={styles.text}>my_mail@gmail.com</span>
                               </li>
 
                               <li>
@@ -56,17 +56,17 @@ function ContactInfo() {
                               <li>
                                     <h5>2021 - 2026</h5>
                                     <h4>bachelor degree in computer engineering</h4>
-                                    <h4>university name: tehran south azad university</h4>
+                                    <h4>University: Tehran South Azad University</h4>
                               </li>
                               <li>
                                     <h5>2023 - 2024</h5>
                                     <h4>JavaScript Course</h4>
-                                    <h4>Jahad Daneshgahi</h4>
+                                    <h4>Education Course</h4>
                               </li>
                               <li>
                                     <h5>2024 - 2025</h5>
                                     <h4>React.JS & Next.JS</h4>
-                                    <h4>Jahad Daneshgahi</h4>
+                                    <h4>Education Course</h4>
                               </li>
                         </ul>
                   </div>

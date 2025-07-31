@@ -53,6 +53,7 @@
       color: #FFF;
       font-weight: 300;
       font-size: 1.6rem;
+      text-transform: capitalize;
 }
 
 .contact_info.language .percent {

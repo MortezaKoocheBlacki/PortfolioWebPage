@@ -39,14 +39,14 @@ function WelcomeSection() {
                         </p>
 
                         <div className={styles.social_media}>
-                              <Link href="#"><FaInstagram /></Link>
-                              <Link href="#"><FaTwitter /></Link>
-                              <Link href="#"><FaLinkedin /></Link>
-                              <Link href="#"><FaYoutube /></Link>
-                              <Link href="#"><FaDribbble /></Link>
+                              <Link href="https://instagram.com" target="_blank"><FaInstagram /></Link>
+                              <Link href="https://twitter.com" target="_blank"><FaTwitter /></Link>
+                              <Link href="https://linkedin.com" target="_blank"><FaLinkedin /></Link>
+                              <Link href="https://youtube.com/" target="_blank"><FaYoutube /></Link>
+                              <Link href="https://dribbble.com" target="_blank"><FaDribbble /></Link>
                         </div>
 
-                        <Link href="#" className={styles.btn}>دانلود رزومه</Link>
+                        <Link href="/MyResume" className={styles.btn}>مشاهده رزومه</Link>
                   </div>
 
                   <div className={styles.home_image}>

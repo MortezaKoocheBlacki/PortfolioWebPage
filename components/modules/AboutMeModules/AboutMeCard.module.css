@@ -83,12 +83,13 @@
       -moz-transition: 0.5s ease;
       -ms-transition: 0.5s ease;
       -o-transition: 0.5s ease;
+      direction: rtl;
 }
 
 .card .content h3 {
       position: relative;
-      font-size: 1.8rem;
-      color: #000;
+      font-size: 1.25rem;
+      color: #333;
       margin-bottom: 25px;
 }
 
@@ -96,53 +97,21 @@
       position: absolute;
       bottom: -15px;
       font-weight: 500;
-      font-size: 1.2rem;
+      font-size: 0.75rem;
       opacity: 0.75;
-      color: #333;
 }
 
-.card .content .tech_icons {
-      display: flex;
-      gap: 1rem;
-      margin: 1rem 0;
-      font-size: 3rem;
-      color: #000;
+.card .content p {
       position: relative;
       opacity: 0;
+      color: #333;
       transition: 0.5s ease;
       -webkit-transition: 0.5s ease;
       -moz-transition: 0.5s ease;
       -ms-transition: 0.5s ease;
       -o-transition: 0.5s ease;
-      position: relative;
-      top: 10px;
 }
 
-.card:hover .content .tech_icons {
+.card:hover .content p {
       opacity: 1;
-}
-
-.seeBtn{
-      display: inline-block;
-      margin: 20px 0;
-      border: none;
-      outline: none;
-      color: #000;
-      text-transform: capitalize;
-      padding: 10px 20px;
-      background: #CCC;
-      border-radius: 10px;
-      -webkit-border-radius: 10px;
-      -moz-border-radius: 10px;
-      -ms-border-radius: 10px;
-      -o-border-radius: 10px;
-      transition: 0.3s ease;
-      -webkit-transition: 0.3s ease;
-      -moz-transition: 0.3s ease;
-      -ms-transition: 0.3s ease;
-      -o-transition: 0.3s ease;
-}
-.seeBtn:hover{
-      background: #555;
-      color: #EEE;
 }

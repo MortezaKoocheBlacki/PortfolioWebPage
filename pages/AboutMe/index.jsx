@@ -1,5 +1,7 @@
 import React from 'react'
 import styles from "./AboutMe.module.css"
+import about_me from '@/utils/constant/aboutMeData';
+import AboutMeCard from '@/components/modules/AboutMeModules/AboutMeCard';
 
 function AboutMe() {
       return (
@@ -105,6 +107,7 @@ function AboutMe() {
                               خوشحال می‌شم بیشتر گپ بزنیم و ببینیم چه فرصت‌هایی می‌تونیم با هم بسازیم.
                         </p>
                   </div>
+                  
             </div>
       );
 }

@@ -154,7 +154,7 @@ const products_list = [
             alt: "Website Dashboard",
             link: "/ProductsPage/8",
             project_link: "https://webpagedashboard.netlify.app/",
-            title: "Website Dashboard",
+            title: "Website Dashboard (not responsive)",
             description: "این داشبورد وب‌سایت، ابزاری حرفه‌ای برای مدیریت محتوا و داده‌ها است. طراحی ریسپانسیو و مدرن آن، مدیریت آسان‌تر وب‌سایت را ممکن می‌کند و تجربه کاربری بهتری را برای مدیران سایت فراهم می‌آورد.",
             price: "12$",
             technologies: [
@@ -191,7 +191,7 @@ const products_list = [
                   src_two: "/Image04.jpg",
                   src_three: "/Image05.jpg"
             }],
-            alt: "LoginForm-Project",
+            alt: "Responisve Dashboard",
             link: "/ProductsPage/10",
             project_link: "https://responsiveadmindashboard-react.netlify.app/",
             title: "Responsive Dashboard",

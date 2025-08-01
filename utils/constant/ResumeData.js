@@ -55,7 +55,7 @@ const skills_data = [
       {
             id: 6,
             skill_name: "NEXT JS",
-            skill_percent: "40%",
+            skill_percent: "45%",
       },
 ]
 

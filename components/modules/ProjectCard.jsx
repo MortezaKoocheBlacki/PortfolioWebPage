@@ -14,7 +14,6 @@ function ProjectCard({ list_item }) {
                   <div className={styles.portfolio_layer}>
                         <h4> {title} </h4>
                         
-                        <p>{ description }</p>
                         <div className={styles.tech_icons}>
                               {technologies.map(({ id, icon }) => (
                                     <div key={id} className={styles.tech_icon}>

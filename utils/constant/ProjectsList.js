@@ -1,6 +1,5 @@
 import { FaHtml5, FaCss3, FaReact } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
-import { SiNextdotjs } from "react-icons/si";
 
 const projects_list = [
       {
@@ -14,12 +13,13 @@ const projects_list = [
             alt: "Music-Project",
             link: `/ProjectsPage/1`,
             title: "Music Player",
-            description: "",
+            description: "پورتفولیو شخصی برای نمایش مهارت‌ها و پروژه‌های شما طراحی شده است. با ظاهری مینیمال و مدرن، این پروژه بهترین گزینه برای افرادی است که می‌خواهند توانایی‌های خود را به حرفه‌ای‌ترین شکل ممکن ارائه کنند.",
             technologies: [
                   { id: "html", icon: <FaHtml5 /> },
                   { id: "css", icon: <FaCss3 /> },
                   { id: "js", icon: <IoLogoJavascript /> },
             ],
+            project_link: "https://github.com/MortezaKoocheBlacki/PersonalPortfolioWebsite",
       },
       {
             id: 2,
@@ -32,12 +32,13 @@ const projects_list = [
             alt: "Clock-Project",
             link: "/ProjectsPage/2",
             title: "Clock Project",
-            description: "",
+            description: "پروژه ساعت با طراحی مدرن و زیبا، زمان را به شکلی متفاوت نمایش می‌دهد. علاوه بر نمایش زمان دقیق، ظاهری چشم‌نواز دارد که می‌تواند در هر وب‌سایتی مورد استفاده قرار گیرد.",
             technologies: [
                   { id: "html", icon: <FaHtml5 /> },
                   { id: "css", icon: <FaCss3 /> },
                   { id: "js", icon: <IoLogoJavascript /> },
             ],
+            project_link: "https://github.com/MortezaKoocheBlacki/Clock",
       },
       {
             id: 3,
@@ -47,15 +48,16 @@ const projects_list = [
                   src_two: "/Image04.jpg",
                   src_three: "/Image05.jpg"
             }],
-            alt: "Store-Project",
+            alt: "Responsive Dashboard",
             link: `/ProjectsPage/3`,
-            title: "Store Project",
-            description: "",
+            title: "Responsive Dashboard",
+            description: "داشبورد ریسپانسیو با طراحی منعطف، مناسب برای مدیریت داده‌ها و آمارهای مختلف است. این پروژه برای هر دستگاهی، از موبایل گرفته تا دسکتاپ، سازگاری کامل دارد. ظاهر جذاب و کاربرپسند، استفاده از آن را برای کاربران آسان و لذت‌بخش می‌کند.",
             technologies: [
                   { id: "html", icon: <FaHtml5 /> },
                   { id: "css", icon: <FaCss3 /> },
                   { id: "js", icon: <IoLogoJavascript /> },
             ],
+            project_link: "https://github.com/MortezaKoocheBlacki/ResponsiveDashboardWithDarkMode",
       },
       {
             id: 4,
@@ -68,12 +70,13 @@ const projects_list = [
             alt: "ToDo-Project",
             link: `/ProjectsPage/4`,
             title: "ToDo List",
-            description: "",
+            description: "مدیریت وظایف روزانه با ToDo List App ساده‌تر از همیشه است. این پروژه با طراحی تمیز و مینیمال، کمک می‌کند تا کارهای روزانه را ثبت و پیگیری کنید. مناسب افراد پرمشغله و علاقه‌مند به نظم شخصی.",
             technologies: [
                   { id: "html", icon: <FaHtml5 /> },
                   { id: "css", icon: <FaCss3 /> },
                   { id: "js", icon: <IoLogoJavascript /> },
             ],
+            project_link: "https://github.com/MortezaKoocheBlacki/ToDoListApp",
       },
       {
             id: 5,
@@ -86,12 +89,13 @@ const projects_list = [
             alt: "Poll-Project",
             link: `/ProjectsPage/5`,
             title: "Poll Project",
-            description: "",
+            description: "عاشق فیلم هستید؟ Movie Guide اطلاعات کامل فیلم‌ها را به همراه پوستر و توضیحات جذاب ارائه می‌کند. این پروژه مناسب دوست‌داران سینما و کسانی است که می‌خواهند بهترین فیلم‌ها را پیدا کنند.",
             technologies: [
                   { id: "html", icon: <FaHtml5 /> },
                   { id: "css", icon: <FaCss3 /> },
                   { id: "js", icon: <IoLogoJavascript /> },
             ],
+            project_link: "https://github.com/MortezaKoocheBlacki/Movie-Guide-App-Without-any-API-",
       },
       {
             id: 6,
@@ -101,15 +105,16 @@ const projects_list = [
                   src_two: "/Image07.jpg",
                   src_three: "/Image01.jpg"
             }],
-            alt: "PasswordGeneration-Project",
+            alt: "Password Generation",
             link: `/ProjectsPage/6`,
             title: "Password Generator",
-            description: "",
+            description: "تولید رمز عبور قدرتمند و ایمن، دغدغه بسیاری از کاربران است. این پروژه با الگوریتم‌های تصادفی، رمزهای امن و منحصر‌به‌فرد ایجاد می‌کند و امنیت حساب‌های کاربری شما را تضمین می‌کند.",
             technologies: [
                   { id: "html", icon: <FaHtml5 /> },
                   { id: "css", icon: <FaCss3 /> },
                   { id: "js", icon: <IoLogoJavascript /> },
             ],
+            project_link: "https://github.com/MortezaKoocheBlacki/PasswordGeneration",
       },
       {
             id: 7,
@@ -119,15 +124,16 @@ const projects_list = [
                   src_two: "/Image01.jpg",
                   src_three: "/Image02.jpg"
             }],
-            alt: "LoginForm-Project",
+            alt: "Login Form",
             link: `/ProjectsPage/7`,
             title: "Login Form",
-            description: "",
+            description: "مدیریت وظایف روزانه با ToDo List App ساده‌تر از همیشه است. این پروژه با طراحی تمیز و مینیمال، کمک می‌کند تا کارهای روزانه را ثبت و پیگیری کنید. مناسب افراد پرمشغله و علاقه‌مند به نظم شخصی.",
             technologies: [
                   { id: "html", icon: <FaHtml5 /> },
                   { id: "css", icon: <FaCss3 /> },
                   { id: "js", icon: <IoLogoJavascript /> },
             ],
+            project_link: "https://github.com/MortezaKoocheBlacki/ToDoListApp",
       },
 ];
 

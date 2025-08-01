@@ -77,21 +77,21 @@ function ContactInfo() {
                               <li>
                                     <span className={styles.text}>English</span>
                                     <span className={styles.percent}>
-                                          <div style={{ width: '90%' }}></div>
+                                          <div style={{ width: '60%' }}></div>
                                     </span>
                               </li>
 
                               <li>
                                     <span className={styles.text}>Germany</span>
                                     <span className={styles.percent}>
-                                          <div style={{ width: '55%' }}></div>
+                                          <div style={{ width: '10%' }}></div>
                                     </span>
                               </li>
 
                               <li>
                                     <span className={styles.text}>French</span>
                                     <span className={styles.percent}>
-                                          <div style={{ width: '25%' }}></div>
+                                          <div style={{ width: '5%' }}></div>
                                     </span>
                               </li>
                         </ul>

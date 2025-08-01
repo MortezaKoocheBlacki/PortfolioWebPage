@@ -5,24 +5,24 @@ import { MdSportsVolleyball } from "react-icons/md";
 const company_data = [
       {
             id: 1,
-            year_work: "2019 - Present",
-            company_name: "Company Name",
-            work_position: "Senior UX Designer",
-            work_description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit, et nisi. Provident possimus et magni a! Reiciendis accusamus est in commodi facilis odio sunt qui esse rem placeat. Quia, nobis.",
+            year_work: "2024 - Present",
+            company_name: "Self Projects",
+            work_position: "React.JS & Next.JS Projects",
+            work_description: "From 2024 to the present, I have focused on developing self-driven React.js and Next.js projects, emphasizing performance optimization, clean architecture, and user-centered design. This work improved my problem-solving skills, deepened technical expertise, and strengthened adaptability across modern front-end ecosystems.",
       },
       {
             id: 2,
-            year_work: "2016 - 2019",
-            company_name: "Company Name",
-            work_position: "UI/UX Designer",
-            work_description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit, et nisi. Provident possimus et magni a! Reiciendis accusamus est in commodi facilis odio sunt qui esse rem placeat. Quia, nobis.",
+            year_work: "2023 - 2024",
+            company_name: "Self Learning",
+            work_position: "Front-End Concepts Learning",
+            work_description: "From 2023 to 2024, I dedicated myself to self-learning front-end development concepts, focusing on mastering JavaScript, React.js, and Next.js fundamentals. This period strengthened my understanding of responsive design, component-based architecture, and modern development workflows.",
       },
       {
             id: 3,
-            year_work: "2014 - 2016",
-            company_name: "Company Name",
-            work_position: "Junior UX Designer",
-            work_description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit, et nisi. Provident possimus et magni a! Reiciendis accusamus est in commodi facilis odio sunt qui esse rem placeat. Quia, nobis.",
+            year_work: "2023 - 2024",
+            company_name: "Self Projects",
+            work_position: "HTML & CSS & JS Projects",
+            work_description: "From 2023 to 2024, I worked on self-driven projects utilizing HTML, CSS, and JavaScript to build responsive and accessible web pages. This experience enhanced my skills in semantic markup, styling best practices, and interactive front-end development.",
       },
 ]
 

@@ -27,9 +27,9 @@ const latest_project = [
       {
             id: 2,
             cover__image: "/Image02.jpg",
-            alt: "Clock Project",
+            alt: "OTP Generator Project",
             link: "/ProductsPage/7",
-            title: "Clock Project",
+            title: "OTP Generator Project",
             description: "زمان رو داشته باش",
             technologies: [
                   { id: "html", icon: <FaHtml5 /> },
@@ -42,7 +42,7 @@ const latest_project = [
             cover__image: "/Image03.jpg",
             alt: "Shopping Cart",
             link: "/ProductsPage/1",
-            title: "Shopping Cart",
+            title: "Manage Stop Watch",
             description: "پروژه فروشگاهی جالب",
             technologies: [
                   { id: "html", icon: <FaHtml5 /> },
@@ -92,9 +92,9 @@ const latest_project = [
       {
             id: 7,
             cover__image: "/Image07.jpg",
-            alt: "Portfolio",
+            alt: "Poll Design",
             link: "/ProductsPage/11",
-            title: "Portfolio",
+            title: "Poll Design",
             description: "صفحه ورود باحال",
             technologies: [
                   { id: "html", icon: <FaHtml5 /> },

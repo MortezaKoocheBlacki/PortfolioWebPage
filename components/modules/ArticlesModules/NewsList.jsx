@@ -1,8 +1,7 @@
-// components/NewsList.js
 import React, { useEffect } from 'react';
 import NewsCard from './NewsCard';
 import { newsData } from '@/utils/constant/newsList';
-import styles from './NewsList.module.css'; // Using CSS Modules
+import styles from './NewsList.module.css';
 
 const NewsList = ({ category }) => {
       const selectedNews = newsData[category] || [];
@@ -20,7 +19,6 @@ const NewsList = ({ category }) => {
                   let number = getRndInteger(6, 15);
                   numbers.push(number);
             }
-            console.log("Random numbers from original script:", numbers);
       }, []);
 
       return (

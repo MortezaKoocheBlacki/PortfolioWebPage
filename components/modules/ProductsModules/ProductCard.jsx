@@ -10,7 +10,7 @@ function ProductCard({ product }) {
             title,
             price,
             technologies
-      } = product
+      } = product; // Destructuring product object
 
       return (
             <div className={styles.card}>

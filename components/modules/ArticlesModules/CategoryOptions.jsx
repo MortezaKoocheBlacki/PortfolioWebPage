@@ -1,6 +1,6 @@
 // components/CategoryOptions.js
 import React from 'react';
-import styles from './CategoryOptions.module.css'; // Using CSS Modules
+import styles from './CategoryOptions.module.css'; 
 
 const CategoryOptions = ({ options, activeCategory, onSelectCategory }) => {
       return (
@@ -8,8 +8,9 @@ const CategoryOptions = ({ options, activeCategory, onSelectCategory }) => {
                   {options.map((option) => (
                         <button
                               key={option}
-                              className={`${styles.option} ${activeCategory === option ? styles.active : ""}`}
-                              onClick={() => onSelectCategory(option)}
+                              className={`${styles.option} ${activeCategory === option ? styles.active : ""}`} // Apply active class if the option is selected
+                              type="button"
+                              onClick={() => onSelectCategory(option)} // Handle category selection
                         >
                               {option}
                         </button>

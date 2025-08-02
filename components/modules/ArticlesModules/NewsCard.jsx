@@ -1,7 +1,7 @@
 // components/NewsCard.js
 import React, { useEffect, useRef } from 'react';
-import Image from 'next/image'; // Optimized image component for Next.js
-import styles from './NewsCard.module.css'; // Using CSS Modules
+import Image from 'next/image'; 
+import styles from './NewsCard.module.css'; 
 
 const NewsCard = ({ image, title, description, newsURL, color }) => {
 

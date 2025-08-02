@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import styles from './Header.module.css';
 import Link from 'next/link';
-import Image from 'next/image';
 
 import { ImLeaf } from "react-icons/im";
 
@@ -9,7 +8,7 @@ function Header() {
       const [isMobile, setIsMobile] = useState(false);
 
       useEffect(() => {
-            const handleResize = () => {
+            const handleResize = () => { // Check if the window width is less than or equal to 600px
                   setIsMobile(window.innerWidth <= 600);
             };
             handleResize(); // Set initial state
@@ -18,8 +17,9 @@ function Header() {
       }, []);
 
 
+      // If the screen is small, we hide the header
       return (
-            <header className={`${styles.header} ${isMobile ? styles.hiddenOnMobile : ''}`}>
+            <header className={`${styles.header} ${isMobile ? styles.hiddenOnMobile : ''}`}> 
                   <Link href="/">
                         <ImLeaf className={styles.main_logo} />
                   </Link>

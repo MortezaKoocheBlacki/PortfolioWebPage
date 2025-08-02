@@ -1,14 +1,5 @@
 import { FaHtml5, FaCss3, FaReact } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
-import { SiNextdotjs } from "react-icons/si";
-
-// technologies: [
-//       { id: "html", icon: <FaHtml5 /> },
-//       { id: "css", icon: <FaCss3 /> },
-//       { id: "js", icon: <IoLogoJavascript /> },
-//       { id: "react", icon: <FaReact /> },
-//       { id: "next", icon: <SiNextdotjs /> },
-// ]
 
 const latest_project = [
       {

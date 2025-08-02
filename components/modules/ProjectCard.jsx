@@ -5,7 +5,7 @@ import styles from "./ProjectCard.module.css";
 import { FaArrowUpRightFromSquare } from 'react-icons/fa6';
 
 function ProjectCard({ list_item }) {
-      const { cover__image, alt, link, title, technologies, description } = list_item;
+      const { cover__image, alt, link, title, technologies, description } = list_item; // Destructure the properties from list_item
       
       return (
             <div className={styles.portfolio_box}>

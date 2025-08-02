@@ -15,13 +15,13 @@ function WelcomeSection() {
                   backSpeed: 100,
                   backDelay: 1000,
                   loop: true,
-            });
+            }); // Initialize Typed.js
 
             // Cleanup on unmount
             return () => {
                   typedInstance.destroy();
             };
-      }, []);
+      }, []); // useEffect to initialize Typed.js
 
       return (
             <section className={styles.home} id="home">

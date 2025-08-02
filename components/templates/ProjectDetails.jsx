@@ -23,13 +23,13 @@ function ProjectDetails({ project }) {
       const router = useRouter();
       const handleGoBack = () => {
             router.back();
-      };
+      }; // Function to handle back navigation
 
       const [mainImageSrc, setMainImageSrc] = useState(subImageSrc1);
 
       const handleSubImageClick = (newSrc) => {
             setMainImageSrc(newSrc);
-      };
+      }; // Function to change the main image when a sub-image is clicked
 
       return (
             <div className={styles.container}>

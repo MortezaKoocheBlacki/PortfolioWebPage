@@ -2,7 +2,7 @@ import { useEffect, useRef } from "react";
 import Typed from "typed.js";
 import Link from "next/link";
 import Image from "next/image";
-import { FaInstagram, FaTwitter, FaLinkedin, FaYoutube, FaDribbble } from "react-icons/fa";
+import { FaInstagram, FaTwitter, FaLinkedin, FaYoutube, FaGithub } from "react-icons/fa";
 import styles from "./WelcomeSection.module.css";
 
 function WelcomeSection() {
@@ -43,7 +43,7 @@ function WelcomeSection() {
                               <Link href="https://twitter.com" target="_blank"><FaTwitter /></Link>
                               <Link href="https://linkedin.com" target="_blank"><FaLinkedin /></Link>
                               <Link href="https://youtube.com/" target="_blank"><FaYoutube /></Link>
-                              <Link href="https://dribbble.com" target="_blank"><FaDribbble /></Link>
+                              <Link href="https://github.com/MortezaKoocheBlacki?tab=repositories" target="_blank"><FaGithub /></Link>
                         </div>
 
                         <Link href="/MyResume" className={styles.btn}>مشاهده رزومه</Link>
